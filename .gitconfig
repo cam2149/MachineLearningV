@@ -1,0 +1,3 @@
+[filter "nbdime-clean"]
+       clean = nbdime diff-patch --no-metadata --no-outputs --no-prompt
+       smudge = cat
